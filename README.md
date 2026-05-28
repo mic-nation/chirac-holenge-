@@ -1,2 +1,5 @@
 # chirac-holenge-
-je suis là 
+jeune congolais 🇨🇩 
+travailleur chez Univers Forage Water
+manager des stars 🎤⚽
+
