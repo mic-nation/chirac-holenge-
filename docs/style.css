@@ -1,125 +1,58 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chirac Holenge | Forage d'eau potable</title>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+}
 
-<link rel="stylesheet" href="style.css">
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
 
-</head>
-<body>
+nav{
+    background:#0055aa;
+    padding:10px;
+    text-align:center;
+}
 
-<header>
-    <nav>
-        <h1>Chirac Holenge</h1>
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
 
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#galerie">Galerie</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+section{
+    padding:20px;
+}
 
-<section class="hero" id="accueil">
+h2{
+    color:#003366;
+}
 
-    <div class="hero-content">
-        <h2>Forage d'Eau Potable</h2>
+.btn{
+    display:inline-block;
+    background:#00aa55;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-top:10px;
+}
 
-        <p>
-            Ingénieur principal en études géophysiques et forage d’eau potable.
-        </p>
+.gallery img{
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
 
-        <a href="https://wa.me/243000000000" class="btn">
-            Contact WhatsApp
-        </a>
-    </div>
-
-</section>
-
-<section id="services">
-
-    <h2 class="title">Nos Services</h2>
-
-    <div class="services">
-
-        <div class="service-box">
-            <h3>Forage d'eau</h3>
-            <p>
-                Réalisation professionnelle des forages d’eau potable.
-            </p>
-        </div>
-
-        <div class="service-box">
-            <h3>Études géophysiques</h3>
-            <p>
-                Analyse du sol et détection des nappes d’eau.
-            </p>
-        </div>
-
-        <div class="service-box">
-            <h3>Installation de pompes</h3>
-            <p>
-                Mise en place des systèmes de pompage modernes.
-            </p>
-        </div>
-
-        <div class="service-box">
-            <h3>Maintenance</h3>
-            <p>
-                Entretien et réparation des installations hydrauliques.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="galerie">
-
-    <h2 class="title">Galerie</h2>
-
-    <div class="gallery">
-
-        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200">
-
-        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200">
-
-        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200">
-
-        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200">
-
-    </div>
-
-</section>
-
-<section id="contact">
-
-    <h2 class="title">Contact</h2>
-
-    <div class="contact">
-
-        <p>📞 Téléphone : +243 XXX XXX XXX</p>
-
-        <p>📍 Kinshasa - RDC</p>
-
-        <p>📧 Email : contact@chiracholenge.com</p>
-
-        <a href="https://wa.me/243000000000" class="btn">
-            Nous écrire sur WhatsApp
-        </a>
-
-    </div>
-
-</section>
-
-<footer>
-    <p>
-        © 2026 Chirac Holenge - Tous droits réservés.
-    </p>
-</footer>
-
-</body>
-  </html>
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
