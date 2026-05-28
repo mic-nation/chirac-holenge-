@@ -145,3 +145,9 @@ nav ul li a:hover{
 .card p{
     color:#555;
 }
+
+.card i{
+    color:#00aa55;
+    margin-right:10px;
+    font-size:22px;
+}
