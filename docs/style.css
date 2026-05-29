@@ -249,3 +249,41 @@ section{
 .facebook-btn i{
     margin-right:10px;
 }
+
+.gmail-section{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.gmail-section h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.gmail-section p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:25px;
+    font-size:18px;
+    color:#444;
+}
+
+.gmail-btn{
+    display:inline-block;
+    background:#ea4335;
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.gmail-btn:hover{
+    transform:scale(1.05);
+    background:#d93025;
+}
+
+.gmail-btn i{
+    margin-right:10px;
+}
