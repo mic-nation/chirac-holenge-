@@ -421,3 +421,23 @@ section{
 .univers-btn i{
     margin-right:10px;
 }
+
+.about{
+    padding:60px 20px;
+    background:white;
+    text-align:center;
+}
+
+.about h2{
+    color:#003366;
+    margin-bottom:25px;
+    font-size:35px;
+}
+
+.about p{
+    max-width:850px;
+    margin:auto;
+    font-size:19px;
+    line-height:1.8;
+    color:#444;
+}
