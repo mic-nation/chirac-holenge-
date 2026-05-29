@@ -454,3 +454,27 @@ section{
 .service-card:hover{
     transform:translateY(-5px);
 }
+
+.apropos{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    line-height:1.8;
+}
+
+.apropos h2{
+    color:#0056b3;
+    margin-bottom:20px;
+}
+
+.apropos ul{
+    list-style:none;
+    padding:0;
+}
+
+.apropos li{
+    background:#f4f8ff;
+    margin:10px 0;
+    padding:12px;
+    border-radius:10px;
+}
