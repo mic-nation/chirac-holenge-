@@ -171,3 +171,20 @@ nav ul li a:hover{
 .gallery img:hover{
     transform:scale(1.05);
 }
+
+section{
+    animation:fadeIn 1.5s;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
