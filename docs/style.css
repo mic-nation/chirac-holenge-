@@ -381,3 +381,43 @@ section{
 .channel-btn{
     background:#25d366;
 }
+
+.univers-section{
+    text-align:center;
+    padding:60px 20px;
+    background:#eef7ff;
+}
+
+.univers-section h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.univers-section p{
+    max-width:800px;
+    margin:auto;
+    margin-bottom:30px;
+    font-size:18px;
+    color:#444;
+    line-height:1.7;
+}
+
+.univers-btn{
+    display:inline-block;
+    background:#1877f2;
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.univers-btn:hover{
+    transform:scale(1.05);
+    background:#0d65d9;
+}
+
+.univers-btn i{
+    margin-right:10px;
+}
