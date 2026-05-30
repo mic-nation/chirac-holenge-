@@ -546,3 +546,9 @@ section{
 body{
     padding-top:80px;
 }
+
+.logo img{
+    height:60px;
+    width:auto;
+    border-radius:10px;
+}
