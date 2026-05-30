@@ -618,3 +618,47 @@ body{
 .navbar ul li a:hover {
     background: #1e90ff;
 }
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#003366;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 15px; /* réduit la hauteur */
+    z-index:1000;
+}
+
+.logo img{
+    height:45px; /* logo plus compact */
+    width:auto;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:8px;
+    margin:0;
+    padding:0;
+}
+
+.navbar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 10px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.navbar ul li a:hover{
+    background:#0055aa;
+}
+
+body{
+    padding-top:70px;
+}
