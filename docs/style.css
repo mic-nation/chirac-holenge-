@@ -592,3 +592,29 @@ body{
 .galerie-grid img:hover {
     transform: scale(1.05);
 }
+
+.navbar {
+    background: #0a3d62;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; /* plus petit */
+    padding: 8px 12px; /* boutons plus compacts */
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: #1e90ff;
+}
