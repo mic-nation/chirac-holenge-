@@ -940,3 +940,15 @@ body{
 
     color:white;
 }
+
+.page-banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.page-banner h1{
+    font-size:40px;
+    color:white;
+}
