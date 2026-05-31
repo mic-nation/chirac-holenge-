@@ -999,3 +999,15 @@ body{
 
     padding:80px 20px;
 }
+
+.univers-section h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.univers-section p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
