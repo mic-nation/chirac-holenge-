@@ -722,3 +722,91 @@ body{
     visibility:visible;
     transform:translateY(0);
 }
+
+/* SECTION ACCUEIL */
+
+.hero{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("forage.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:20px;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero-logo{
+    width:140px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    color:#00cc66;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn-contact,
+.btn-realisations{
+
+    text-decoration:none;
+
+    padding:15px 25px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.btn-contact{
+    background:#00c853;
+    color:white;
+}
+
+.btn-realisations{
+    background:#0066cc;
+    color:white;
+}
+
+.btn-contact:hover,
+.btn-realisations:hover{
+    transform:translateY(-3px);
+}
