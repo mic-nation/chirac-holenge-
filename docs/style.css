@@ -1007,14 +1007,14 @@ body{
 
 .univers-section p{
     max-width:800px;
-    margin:auto;
+    margin-bottom:40px;
     line-height:1.8;
     font-size:18px;
 }
 
 .btn-univers{
     display:inline-block;
-    margin-top:25px;
+    margin-top:20px;
     padding:15px 25px;
     background:#00c853;
     color:white;
