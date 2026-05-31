@@ -980,3 +980,22 @@ body{
 .galerie-grid img:hover{
     transform:scale(1.05);
 }
+
+.univers-section{
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+    ),
+    url("univers1.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+}
