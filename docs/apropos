@@ -30,6 +30,10 @@
 
 </nav>
 
+<section class="page-banner apropos-banner">
+    <h1>À Propos</h1>
+</section>
+
 <header>
 <h1>À propos de moi</h1>
 <a href="index.html">← Retour à l'accueil</a>
