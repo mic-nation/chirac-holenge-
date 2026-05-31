@@ -1027,3 +1027,19 @@ body{
 .btn-univers:hover{
     transform:translateY(-3px);
 }
+
+.univers-section h2{
+    font-size:42px;
+    margin-bottom:20px;
+    color:#111;
+    font-weight:bold;
+}
+
+.univers-section p{
+    font-size:22px;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+    color:#222;
+    font-weight:500;
+}
