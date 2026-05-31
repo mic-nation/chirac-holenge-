@@ -726,7 +726,7 @@ body{
 /* SECTION ACCUEIL */
 
 .hero{
-    min-height:100vh;
+    min-height:85vh;
 
     background:
     linear-gradient(
@@ -807,4 +807,10 @@ body{
 .btn-contact:hover,
 .btn-realisations:hover{
     transform:translateY(-3px);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
