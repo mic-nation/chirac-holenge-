@@ -1059,3 +1059,27 @@ text-shadow:2px 2px 6px rgba(0,0,0,0.8);
     margin-bottom:30px;
     color:#444;
 }
+
+.btn-univers{
+    display:inline-block;
+    background:#00aa44;
+    color:white;
+    text-decoration:none;
+
+    padding:15px 25px;
+    margin-top:30px;
+
+    border-radius:30px;
+
+    font-size:20px;
+    font-weight:bold;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+
+    transition:0.3s;
+}
+
+.btn-univers:hover{
+    background:#008833;
+    transform:scale(1.05);
+}
