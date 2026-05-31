@@ -1012,16 +1012,23 @@ body{
     font-size:18px;
 }
 
-.btn-univers{
-    display:inline-block;
-    margin-top:20px;
-    padding:15px 25px;
-    background:#00c853;
+.univers-btn{
+    display:block;
+    width:85%;
+    margin:15px auto;
+
+    background:#003366;
     color:white;
+
+    padding:18px 20px;
+
+    border-radius:15px;
+
     text-decoration:none;
-    border-radius:10px;
+    text-align:center;
+
+    font-size:24px;
     font-weight:bold;
-    transition:0.3s;
 }
 
 .btn-univers:hover{
