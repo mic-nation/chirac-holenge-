@@ -1318,3 +1318,59 @@ body{
     font-size:18px;
     color:#333;
 }
+
+.form-banner{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.form-banner h1{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.geo-form-section{
+    max-width:800px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.geo-form-section form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.geo-form-section input,
+.geo-form-section textarea{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.geo-form-section h3{
+    color:#003366;
+    margin-top:20px;
+}
+
+.geo-form-section label{
+    font-size:18px;
+}
+
+.geo-form-section button{
+    background:#00aa44;
+    color:white;
+    border:none;
+    padding:18px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.geo-form-section button:hover{
+    background:#008833;
+}
