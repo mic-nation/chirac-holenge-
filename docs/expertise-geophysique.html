@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Demande d'Étude Géophysique</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="form-banner">
+
+    <h1>Étude Géophysique</h1>
+
+    <p>
+        Remplissez cette fiche afin de recevoir rapidement
+        une étude adaptée à votre projet de forage d'eau potable.
+    </p>
+
+</section>
+
+<section class="geo-form-section">
+
+<form action="https://formspree.io/f/mvzplaad" method="POST">
+
+    <input type="text" name="Nom" placeholder="Nom" required>
+
+    <input type="text" name="Post-nom" placeholder="Post-nom" required>
+
+    <input type="tel" name="Téléphone" placeholder="Téléphone" required>
+
+    <input type="text" name="Village / Quartier" placeholder="Village / Quartier">
+
+    <input type="text" name="Commune" placeholder="Commune">
+
+    <input type="text" name="Territoire" placeholder="Territoire">
+
+    <input type="text" name="Province" placeholder="Province">
+
+    <input type="number" name="Profondeur estimée recherchée" placeholder="Profondeur estimée recherchée (mètres)">
+
+    <h3>Méthode souhaitée</h3>
+
+    <label>
+        <input type="checkbox" name="Méthode" value="Détecteur">
+        Détecteur
+    </label>
+
+    <label>
+        <input type="checkbox" name="Méthode" value="GPS Garmin">
+        GPS Garmin
+    </label>
+
+    <label>
+        <input type="checkbox" name="Méthode" value="Altimètre de précision">
+        Altimètre de précision
+    </label>
+
+    <textarea
+        name="Informations supplémentaires"
+        rows="5"
+        placeholder="Décrivez votre projet...">
+    </textarea>
+
+    <button type="submit">
+        Envoyer la demande
+    </button>
+
+</form>
+
+</section>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
