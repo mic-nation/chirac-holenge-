@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mes Vidéos - Chirac Holenge</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="realisations.html">Réalisations</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="video-page">
+
+    <h1>🎥 Mes Vidéos de Chantier</h1>
+
+    <div class="video-container">
+
+        <video controls>
+            <source src="chantier1.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="chantier4.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="chantier5.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+</section>
+
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});
+</script>
+
+</body>
+</html>
