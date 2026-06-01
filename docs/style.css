@@ -1058,3 +1058,90 @@ body{
 
     box-shadow:0 10px 20px rgba(0,0,0,0.5);
 }
+
+.univers-banner{
+    min-height:60vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("univers-banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.univers-banner h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.univers-banner p{
+    font-size:20px;
+    max-width:800px;
+}
+
+.univers-presentation{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.univers-presentation h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.univers-presentation p{
+    max-width:900px;
+    margin:20px auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.univers-actions{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.univers-actions h2{
+    color:#003366;
+    margin-bottom:30px;
+}
+
+.univers-btn{
+    display:block;
+    width:85%;
+    max-width:500px;
+
+    margin:20px auto;
+
+    background:linear-gradient(135deg,#003366,#0055aa);
+
+    color:white;
+    text-decoration:none;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    font-size:24px;
+    font-weight:bold;
+
+    transition:0.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.univers-btn:hover{
+    transform:translateY(-4px);
+}
