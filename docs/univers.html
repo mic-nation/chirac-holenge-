@@ -1,37 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Univers Forage Water</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Univers Forage Water</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<p class="univers-intro">
-Choisissez une option pour contacter Univers Forage Water.
-</p>
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="realisations.html">Réalisations</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="univers-banner">
+
+    <div class="overlay">
+
+        <h1>Univers Forage Water</h1>
+
+        <p>
+            Votre partenaire de confiance pour le forage d'eau potable,
+            les études géophysiques et les solutions durables en ressources hydriques.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="univers-presentation">
+
+    <h2>À propos de nous</h2>
+
+    <p>
+        Univers Forage Water est une entreprise privée spécialisée dans le forage d'eau potable
+        et les études géophysiques. Notre mission est de répondre rapidement aux besoins de la
+        population congolaise en offrant des solutions fiables, modernes et durables pour
+        l'accès à l'eau.
+    </p>
+
+    <p>
+        Grâce à notre expertise technique et à notre engagement sur le terrain,
+        nous accompagnons les particuliers, entreprises, ONG et institutions
+        dans leurs projets hydrauliques.
+    </p>
+
+</section>
 
 <section class="univers-actions">
 
-    <h1>Univers Forage Water</h1>
+    <h2>Contactez-nous</h2>
 
-    <a href="tel:+243992704921" class="realisation-btn">
+    <a href="tel:+243992704921" class="univers-btn">
         📞 Appeler maintenant
     </a>
 
-    <a href="https://wa.me/243821015938" class="realisation-btn">
+    <a href="https://wa.me/243821015938" class="univers-btn">
         💬 WhatsApp
     </a>
 
-    <a href="https://facebook.com/https://www.facebook.com/profile.php?id=100085025711922" class="realisation-btn">
+    <a href="https:https://www.facebook.com/profile.php?id=100085025711922"
+    class="univers-btn">
         👍 Suivez-nous sur Facebook
     </a>
 
 </section>
+
+<footer>
+    <p>
+        © 2026 Univers Forage Water - Tous droits réservés.
+    </p>
+</footer>
+
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+menu.classList.toggle("active");
+});
+</script>
 
 </body>
 </html>
