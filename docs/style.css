@@ -1184,3 +1184,26 @@ body{
     }
 
 }
+
+.video-page{
+    padding:120px 20px 50px;
+    text-align:center;
+}
+
+.video-page h1{
+    color:#003366;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.video-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.video-container video{
+    width:100%;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
