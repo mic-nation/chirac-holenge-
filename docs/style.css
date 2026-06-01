@@ -1520,3 +1520,21 @@ body{
 
     transform:translateY(-3px);
 }
+
+.geo-banner-expertise{
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("expertise.jpg");
+}
+
+.geo-banner-forage{
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("machine5.jpg");
+}
