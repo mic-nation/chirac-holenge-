@@ -1012,28 +1012,6 @@ body{
     font-size:18px;
 }
 
-.univers-btn{
-    display:block;
-    width:85%;
-    margin:15px auto;
-
-    background:#003366;
-    color:white;
-
-    padding:18px 20px;
-
-    border-radius:15px;
-
-    text-decoration:none;
-    text-align:center;
-
-    font-size:24px;
-    font-weight:bold;
-}
-
-.btn-univers:hover{
-    transform:translateY(-3px);
-}
 .univers-section h2{
     font-size:48px;
     margin-bottom:20px;
@@ -1062,24 +1040,24 @@ text-shadow:2px 2px 6px rgba(0,0,0,0.8);
 
 .btn-univers{
     display:inline-block;
-    background:#00aa44;
+    background:linear-gradient(135deg,#00aa44,#00cc66);
     color:white;
+
+    padding:18px 35px;
+    margin-top:40px;
+
+    border-radius:50px;
+
     text-decoration:none;
-
-    padding:15px 30px;
-    margin-top:30px;
-
-    border-radius:30px;
-
-    font-size:20px;
+    font-size:22px;
     font-weight:bold;
 
-    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+    box-shadow:0 6px 15px rgba(0,0,0,0.4);
 
-    transition:0.3s;
+    transition:all 0.3s ease;
 }
 
 .btn-univers:hover{
-    background:#008833;
-    transform:scale(1.05);
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.5);
 }
