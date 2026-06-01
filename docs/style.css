@@ -1462,3 +1462,61 @@ body{
     margin:auto;
     line-height:1.8;
 }
+
+.geo-form-section{
+    max-width:800px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.geo-form-section form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.geo-form-section input,
+.geo-form-section textarea{
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+}
+
+.geo-form-section input:focus,
+.geo-form-section textarea:focus{
+    outline:none;
+
+    border:2px solid #00aa44;
+}
+
+.geo-form-section button{
+    background:#00aa44;
+
+    color:white;
+
+    border:none;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.geo-form-section button:hover{
+    background:#008833;
+
+    transform:translateY(-3px);
+}
