@@ -1528,3 +1528,15 @@ body{
     ),
     url("machine5.jpg");
 }
+
+.geo-form-section label{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:10px 0;
+}
+
+.geo-form-section input[type="checkbox"]{
+    width:20px;
+    height:20px;
+}
