@@ -1396,12 +1396,20 @@ body{
 }
 
 .why-card{
-    background:white;
+    display:block;
+
+    background:linear-gradient(135deg,#003366,#0055aa);
+
+    color:white;
+
     padding:25px;
+
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
     text-decoration:none;
-    color:#333;
+
+    box-shadow:0 6px 15px rgba(0,0,0,0.25);
+
     transition:0.3s;
 }
 
@@ -1410,8 +1418,19 @@ body{
 }
 
 .why-card h3{
-    color:#003366;
-    margin-bottom:15px;
+    color:white;
+}
+
+.why-card::after{
+    content:"👉 Cliquez ici";
+
+    display:block;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+    font-size:15px;
 }
 
 .geo-banner{
