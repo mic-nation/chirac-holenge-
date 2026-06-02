@@ -1340,7 +1340,7 @@ body{
 .geo-form-section form{
     display:flex;
     flex-direction:column;
-    gap:15px;
+    gap:25px;
 }
 
 .geo-form-section input,
