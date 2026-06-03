@@ -1556,3 +1556,16 @@ body{
     background-size:cover;
     background-position:center;
 }
+
+.geo-banner-accompagnement{
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),
+    url("super.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
