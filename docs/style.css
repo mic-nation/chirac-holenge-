@@ -870,26 +870,3 @@ h2{
     opacity:0.9;
 }
 
-.banner-services{
-    background:url("machine1.jpg") center/cover no-repeat;
-}
-
-.banner-contact{
-    background:url("super.png") center/cover no-repeat;
-}
-
-.banner-apropos{
-    background:url("nous2.jpg") center/cover no-repeat;
-}
-
-.banner-contact{
-    background:url("l'eau.jpeg") center/cover no-repeat;
-}
-
-.banner-univers{
-    background:url("univers-banner.jpg") center/cover no-repeat;
-}
-
-.banner-realisations{
-    background:url("l'eau.jpeg") center/cover no-repeat;
-}
