@@ -628,3 +628,18 @@ h2{
     transform:translateY(-5px);
     background:#0055aa;
 }
+
+.video-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.video-container video{
+    width:100%;
+    max-width:800px;
+    border-radius:15px;
+}
