@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Intervention Rapide</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="realisation.html">Réalisations</a></li>
+        <li><a href="univers.html">Univers Forage</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="geo-banner geo-banner-intervention">
+
+    <div class="geo-banner-content">
+
+        <h1>⚡ Intervention Rapide</h1>
+
+        <p>
+            Notre équipe répond rapidement à vos besoins
+            en études géophysiques, localisation et forage
+            d'eau potable partout en RDC.
+        </p>
+
+    </div>
+
+</section>
+
+<h2 class="forage-title">
+    Demande d'Intervention Rapide
+</h2>
+
+<p class="forage-text">
+    Remplissez cette fiche afin que notre équipe vous contacte rapidement.
+</p>
+
+<section class="geo-form-section">
+
+<form action="https://formspree.io/f/mvzplaad" method="POST">
+
+    <input type="text" name="Nom" placeholder="Nom" required>
+
+    <input type="text" name="Post-nom" placeholder="Post-nom" required>
+
+    <input type="tel" name="Téléphone" placeholder="Téléphone" required>
+
+    <input type="text" name="Village" placeholder="Village / Quartier">
+
+    <input type="text" name="Commune" placeholder="Commune">
+
+    <input type="text" name="Province" placeholder="Province">
+
+    <h3>Type d'intervention souhaitée</h3>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Intervention" value="Étude géophysique">
+        🌍 Étude Géophysique
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Intervention" value="Forage d'eau potable">
+        💧 Forage d'Eau Potable
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Intervention" value="Localisation précise">
+        📍 Localisation Précise
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Intervention" value="Visite technique">
+        🛠️ Visite Technique
+    </label>
+
+    <h3>Niveau d'urgence</h3>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Urgence" value="Très urgent">
+        🚨 Très Urgent
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Urgence" value="Cette semaine">
+        📅 Cette semaine
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Urgence" value="Ce mois-ci">
+        📆 Ce mois-ci
+    </label>
+
+    <textarea
+    name="Message"
+    rows="5"
+    placeholder="Décrivez votre besoin...">
+    </textarea>
+
+    <button type="submit">
+        ⚡ Envoyer ma demande
+    </button>
+
+</form>
+
+</section>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
