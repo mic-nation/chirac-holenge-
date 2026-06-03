@@ -826,3 +826,70 @@ h2{
     color:#555;
     line-height:1.6;
 }
+
+.page-banner{
+    min-height:320px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:40px 20px;
+    position:relative;
+    overflow:hidden;
+}
+
+/* overlay universel (effet sombre pro) */
+.page-banner::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.55);
+    z-index:1;
+}
+
+/* texte au-dessus */
+.page-banner h1,
+.page-banner p{
+    position:relative;
+    z-index:2;
+}
+
+.page-banner h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.page-banner p{
+    font-size:18px;
+    max-width:800px;
+    opacity:0.9;
+}
+
+.banner-services{
+    background:url("machine1.jpg") center/cover no-repeat;
+}
+
+.banner-contact{
+    background:url("super.png") center/cover no-repeat;
+}
+
+.banner-apropos{
+    background:url("nous2.jpg") center/cover no-repeat;
+}
+
+.banner-contact{
+    background:url("l'eau.jpeg") center/cover no-repeat;
+}
+
+.banner-univers{
+    background:url("univers-banner.jpg") center/cover no-repeat;
+}
+
+.banner-realisations{
+    background:url("l'eau.jpeg") center/cover no-repeat;
+}
