@@ -761,3 +761,26 @@ h2{
 .contact a span{
     font-size:22px;
 }
+
+.service-card{
+    position:relative;
+    overflow:hidden;
+}
+
+/* petit effet moderne */
+.service-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:4px;
+    background:linear-gradient(90deg,#00aa44,#003366);
+}
+
+/* icônes un peu plus visibles */
+.service-card h3{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
