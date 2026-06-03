@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Accompagnement Client</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="realisation.html">Réalisations</a></li>
+        <li><a href="univers.html">Univers Forage</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="geo-banner geo-banner-accompagnement">
+
+    <div class="geo-banner-content">
+
+        <h1>🤝 Accompagnement Client</h1>
+
+        <p>
+            Nous accompagnons nos clients à chaque étape,
+            de l'étude du projet jusqu'à la réalisation complète
+            du forage d'eau potable.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="form-banner">
+
+    <h1>Demande d'Accompagnement</h1>
+
+    <p>
+        Remplissez cette fiche afin que notre équipe vous
+        accompagne dans votre projet.
+    </p>
+
+</section>
+
+<section class="geo-form-section">
+
+<form action="https://formspree.io/f/mvzplaad" method="POST">
+
+    <input type="text" name="Nom" placeholder="Nom" required>
+
+    <input type="text" name="Post-nom" placeholder="Post-nom" required>
+
+    <input type="tel" name="Téléphone" placeholder="Téléphone" required>
+
+    <input type="text" name="Village" placeholder="Village / Quartier">
+
+    <input type="text" name="Commune" placeholder="Commune">
+
+    <input type="text" name="Province" placeholder="Province">
+
+    <h3>Quel accompagnement souhaitez-vous ?</h3>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Accompagnement" value="Conseil technique">
+        📘 Conseil technique
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Accompagnement" value="Étude de faisabilité">
+        🌍 Étude de faisabilité
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Accompagnement" value="Suivi de chantier">
+        🛠️ Suivi de chantier
+    </label>
+
+    <label class="choice-box">
+        <input type="checkbox" name="Accompagnement" value="Projet complet de forage">
+        💧 Projet complet de forage
+    </label>
+
+    <textarea
+    name="Description"
+    rows="6"
+    placeholder="Décrivez votre projet ou votre besoin...">
+    </textarea>
+
+    <button type="submit">
+        🤝 Demander un accompagnement
+    </button>
+
+</form>
+
+</section>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
