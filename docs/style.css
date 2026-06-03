@@ -643,3 +643,29 @@ h2{
     max-width:800px;
     border-radius:15px;
 }
+
+.projets-container{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    max-width:600px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.projets-container a{
+    display:block;
+    background:#003366;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-radius:10px;
+    font-weight:bold;
+    text-align:center;
+    transition:0.3s;
+}
+
+.projets-container a:hover{
+    background:#0055aa;
+    transform:translateY(-3px);
+}
