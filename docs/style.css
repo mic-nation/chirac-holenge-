@@ -521,17 +521,35 @@ h2{
 }
 
 /* Animation des chiffres */
+.stats-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
 .stat-box{
-    transition:0.3s;
+    background:white;
+    width:260px;
+    padding:35px 25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:all 0.4s ease;
 }
 
 .stat-box:hover{
-    transform:translateY(-5px) scale(1.03);
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
 }
 
-/* effet compteur style dashboard */
 .stat-box h3{
-    font-size:42px;
+    font-size:50px;
     color:#00aa44;
+    margin-bottom:10px;
     transition:0.3s;
+}
+
+.stat-box p{
+    font-size:18px;
+    color:#444;
 }
