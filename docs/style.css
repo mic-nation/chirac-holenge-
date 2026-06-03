@@ -1569,3 +1569,12 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+html,
+body{
+    overflow-x:hidden;
+}
+
+*{
+    box-sizing:border-box;
+}
