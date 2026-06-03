@@ -454,3 +454,24 @@ h2{
     height:18px;
     flex-shrink:0;
 }
+
+.geo-form-section button{
+    background:#00aa44;
+    color:white;
+    border:none;
+    padding:18px 30px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:12px;
+    cursor:pointer;
+    width:100%;
+    max-width:350px;
+    margin:20px auto 0;
+    display:block;
+    transition:0.3s;
+}
+
+.geo-form-section button:hover{
+    background:#008833;
+    transform:translateY(-3px);
+}
