@@ -507,3 +507,31 @@ h2{
     margin-bottom:10px;
     color:#003366;
 }
+
+/* Animation entrée section */
+.stats-section{
+    opacity:0;
+    transform:translateY(40px) scale(0.95);
+    transition:all 0.8s ease;
+}
+
+.stats-section.show{
+    opacity:1;
+    transform:translateY(0) scale(1);
+}
+
+/* Animation des chiffres */
+.stat-box{
+    transition:0.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-5px) scale(1.03);
+}
+
+/* effet compteur style dashboard */
+.stat-box h3{
+    font-size:42px;
+    color:#00aa44;
+    transition:0.3s;
+}
