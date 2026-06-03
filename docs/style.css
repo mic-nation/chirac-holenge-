@@ -574,3 +574,30 @@ h2{
     font-size:18px;
     color:#444;
 }
+
+@media(max-width:768px){
+
+    .navbar ul.menu{
+        display:none !important;
+        flex-direction:column;
+        position:absolute;
+        top:60px;
+        left:0;
+        width:100%;
+        background:#003366;
+        padding:15px 0;
+        z-index:999;
+    }
+
+    .navbar ul.menu.active{
+        display:flex !important;
+    }
+
+    .navbar ul{
+        gap:0;
+    }
+}
+
+.menu{
+    list-style:none;
+}
