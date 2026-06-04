@@ -37,9 +37,9 @@ const observer = new IntersectionObserver((entries) => {
             // lancer les compteurs
             const stats = document.querySelectorAll(".stat-box h3");
 
-            animateCounter(stats[0], 150, 7000);
-            animateCounter(stats[1], 200, 5500);
-            animateCounter(stats[2], 100, 4500);
+            animateCounter(stats[0], 450, 7000);
+            animateCounter(stats[1], 500, 5500);
+            animateCounter(stats[2], 300, 4500);
         }
     });
 }, {
