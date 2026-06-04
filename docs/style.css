@@ -909,3 +909,36 @@ h2{
     background:url("univers-banner.jpg") center/cover no-repeat;
 }
 
+/* BOUTON UNIVERS FORAGE WATER */
+
+.btn-univers{
+    display:inline-block;
+    margin-top:40px;
+    background:linear-gradient(135deg,#00c853,#00ff88);
+    color:#003366;
+    padding:20px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+    transition:all 0.4s ease;
+    animation:pulseBtn 2s infinite;
+}
+
+.btn-univers:hover{
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 15px 35px rgba(0,0,0,0.5);
+}
+
+@keyframes pulseBtn{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.05);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
