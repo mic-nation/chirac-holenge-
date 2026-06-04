@@ -23,7 +23,9 @@
 
 <section class="geo-form-section">
 
-<form action="#">
+<form action="https://formspree.io/f/mvzplaad" method="POST">
+
+<input type="hidden" name="_subject" value="Nouvelle demande de devis de forage">
 
 <input type="text" placeholder="Nom" required>
 
