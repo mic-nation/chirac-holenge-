@@ -942,3 +942,43 @@ h2{
         transform:scale(1);
     }
 }
+
+/* UNIVERS FORAGE WATER - BOUTONS PROFESSIONNELS */
+
+.univers-actions{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.univers-actions a{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:white;
+    color:#003366;
+
+    text-decoration:none;
+
+    padding:20px 25px;
+    margin:15px 0;
+
+    border-radius:18px;
+
+    font-size:20px;
+    font-weight:bold;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+    transition:all 0.3s ease;
+}
+
+.univers-actions a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.2);
+}
+
+.univers-actions a span:last-child{
+    font-size:24px;
+}
