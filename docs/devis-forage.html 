@@ -44,27 +44,27 @@
 <h3>Profondeur souhaitée</h3>
 
 <label class="choice-box">
-<input type="checkbox" name="Profondeur" value="0-30 mètres">
+<input type="radio" name="Profondeur" value="0-30 mètres">
 De 0 à 30 mètres
 </label>
 
 <label class="choice-box">
-<input type="checkbox" name="Profondeur" value="30-60 mètres">
+<input type="radio" name="Profondeur" value="30-60 mètres">
 De 30 à 60 mètres
 </label>
 
 <label class="choice-box">
-<input type="checkbox" name="Profondeur" value="60-100 mètres">
+<input type="radio" name="Profondeur" value="60-100 mètres">
 De 60 à 100 mètres
 </label>
 
 <label class="choice-box">
-<input type="checkbox" name="Profondeur" value="100-150 mètres">
+<input type="radio" name="Profondeur" value="100-150 mètres">
 De 100 à 150 mètres
 </label>
 
 <label class="choice-box">
-<input type="checkbox" name="Profondeur" value="Plus de 150 mètres">
+<input type="radio" name="Profondeur" value="Plus de 150 mètres">
 Plus de 150 mètres
 </label>
 
