@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demande de Devis Forage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="geo-banner geo-banner-forage">
+
+    <h1>📋 Demande de Devis de Forage</h1>
+
+    <p>
+        Remplissez ce formulaire pour recevoir une estimation
+        de votre projet de forage d'eau potable.
+    </p>
+
+</section>
+
+<section class="geo-form-section">
+
+<form action="https://formspree.io/f/mvzplaad" method="POST">
+
+<input type="hidden" name="_subject" value="Nouvelle demande de devis de forage">
+
+<input type="text" name="Nom" placeholder="Nom" required>
+
+<input type="text" name="Post-nom" placeholder="Post-nom" required>
+
+<input type="text" name="Prenom" placeholder="Prénom">
+
+<input type="tel" name="Telephone" placeholder="Téléphone" required>
+
+<input type="text" name="Province" placeholder="Province">
+
+<input type="text" name="Commune" placeholder="Ville / Commune">
+
+<input type="text" name="Quartier" placeholder="Quartier / Village">
+
+<h3>Profondeur souhaitée</h3>
+
+<label class="choice-box">
+<input type="radio" name="Profondeur" value="0-30 mètres">
+De 0 à 30 mètres
+</label>
+
+<label class="choice-box">
+<input type="radio" name="Profondeur" value="30-60 mètres">
+De 30 à 60 mètres
+</label>
+
+<label class="choice-box">
+<input type="radio" name="Profondeur" value="60-100 mètres">
+De 60 à 100 mètres
+</label>
+
+<label class="choice-box">
+<input type="radio" name="Profondeur" value="100-150 mètres">
+De 100 à 150 mètres
+</label>
+
+<label class="choice-box">
+<input type="radio" name="Profondeur" value="Plus de 150 mètres">
+Plus de 150 mètres
+</label>
+
+<textarea
+name="Description"
+rows="6"
+placeholder="Décrivez votre projet de forage..."></textarea>
+
+<button type="submit">
+📋 Envoyer la demande de devis
+</button>
+
+</form>
+
+</section>
+
+</body>
+</html>
