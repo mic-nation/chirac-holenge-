@@ -1064,3 +1064,14 @@ position:relative;
 z-index:10;
 
 }
+
+.hero h1,
+.hero h2,
+.hero p,
+.hero-buttons{
+
+position:relative;
+
+z-index:20;
+
+}
