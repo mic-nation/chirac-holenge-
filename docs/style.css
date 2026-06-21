@@ -1145,3 +1145,25 @@ padding:20px;
 color:white;
 
 }
+
+.hero-showcase{
+
+margin-top:35px;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.hero-showcase video{
+
+width:100%;
+
+max-width:500px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,0.35);
+
+}
