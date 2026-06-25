@@ -1199,3 +1199,13 @@ max-width:100%;
 .hero{
     padding-top:100px;
 }
+
+@media (max-width:768px){
+
+.whatsapp-profile{
+    width:120px;
+    right:10px;
+    bottom:140px;
+}
+
+}
