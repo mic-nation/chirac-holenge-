@@ -1169,3 +1169,29 @@ border-radius:20px;
 box-shadow:0 15px 35px rgba(0,0,0,0.35);
 
 }
+
+@media (max-width:768px){
+
+.hero{
+padding:15px;
+}
+
+.hero-content{
+width:95%;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.hero h2{
+font-size:2rem;
+}
+
+.hero p{
+font-size:1.2rem;
+line-height:1.6;
+max-width:100%;
+}
+
+}
